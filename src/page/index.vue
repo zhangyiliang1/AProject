@@ -6,7 +6,7 @@
         <div class="head-left">
           <img src="/assets/banner.png" alt="">
         </div>
-        <div class="head-center">这导航栏</div>
+        <div class="head-center">这导航111栏</div>
         <div class="head-right">搜索</div>
         <!-- <el-menu
           :default-active="activeIndex2"
