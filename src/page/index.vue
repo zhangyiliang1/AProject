@@ -8,13 +8,13 @@
         </div>
         <div class="head-center">这导航111栏</div>
         <div class="head-right">搜索</div>
-        <!-- <el-menu
+        <el-menu
           :default-active="activeIndex2"
           class="el-menu-demo"
           mode="horizontal"
           @select="handleSelect"
           background-color="#545c64"
-          text-color="#fff"WW
+          text-color="#fff"
           active-text-color="#ffd04b"
         >
           <el-menu-item index="1">处理中心</el-menu-item>
@@ -36,7 +36,7 @@
               >订单管理</a
             ></el-menu-item
           >
-        </el-menu> -->
+        </el-menu>
       </div>
     </div>
   </div>
