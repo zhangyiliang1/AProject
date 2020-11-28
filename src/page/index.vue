@@ -4,11 +4,10 @@
     <div>
       <div class="head dis">
         <div class="head-left">
-          <img src="/assets/banner.png" alt="">
+          <img src="@/assets/banner.png" alt="">
         </div>
-        <div class="head-center">这导航111栏</div>
-        <div class="head-right">搜索</div>
-        <el-menu
+        <div class="head-center">
+          <el-menu
           :default-active="activeIndex2"
           class="el-menu-demo"
           mode="horizontal"
@@ -37,6 +36,9 @@
             ></el-menu-item
           >
         </el-menu>
+        </div>
+        <div class="head-right">搜索</div>
+        
       </div>
     </div>
   </div>
@@ -63,6 +65,10 @@ export default {
   width: 100%;
  
   height: 60px;
+}
+.head-left img{
+  width: 100%;
+  height: 100%;
 }
 .head-left{
   flex: 1;
