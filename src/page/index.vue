@@ -12,8 +12,8 @@
           class="el-menu-demo"
           mode="horizontal"
           @select="handleSelect"
-          background-color="#545c64"
-          text-color="#fff"
+          text-color="#333"
+          text-size='30px'
           active-text-color="#ffd04b"
         >
           <el-menu-item index="1">处理中心</el-menu-item>
